@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+//虚拟dom转化为真实dom
 ReactDOM.render(
   <React.StrictMode>
     <App />
