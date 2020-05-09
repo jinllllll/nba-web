@@ -10,7 +10,7 @@ const RadioGroup = Radio.Group;
 class DataViewContainer extends Component {
     state = {
         minCount: 2,
-        charType: 'hexbin',
+        chartType: 'hexbin',
         displayTooltip: true,
     }
 
@@ -58,7 +58,7 @@ class DataViewContainer extends Component {
                                 checkedChildren="On"
                                 unCheckedChildren="Off"
                                 onChange={this.onTooltipChange}
-                             />
+                                defaultChecked />
                         </Col>
                     </Row>
 
